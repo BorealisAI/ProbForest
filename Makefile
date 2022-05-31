@@ -36,6 +36,6 @@ flake8:
 quality: black-check isort-check flake8 mypy
 
 unit-test:
-	pytest --disable-pytest-warnings --durations=0 ./test/unit
+	pytest --cov=prob_forest --cov-report xml --cov-report term --disable-pytest-warnings --durations=0 ./test/unit
 
 tests: unit-test

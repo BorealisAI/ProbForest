@@ -2,7 +2,7 @@
 
 This repository is fully operational on Ubuntu 19.10. On MacOSX only CPU functionality has been tested.
 
-# Install ForestRelaxation package
+# Install ProbForest package
 
 ```  
 pip install prob_forest

@@ -2,7 +2,7 @@
 
 This repository is fully operational on Ubuntu 19.10. On MacOSX only CPU functionality has been tested.
 
-# Install ForestRelaxation package
+# Install ProbForest package
 
 ```  
 pip install prob_forest
@@ -35,15 +35,6 @@ This package uses the latest development version of sklearn, which can be instal
 ```
 make test
 ```
-
-# Data
-
-We use the same datasets examined in the following papers:
-
-* [Robust Decision Trees Against Adversarial Examples](https://arxiv.org/abs/1902.10660)
-* [Robustness Verification of Tree-based Models](https://arxiv.org/abs/1906.03849)
-
-This [repo](https://github.com/chenhongge/RobustTrees) contains all the necessary scripts for downloading and processing the data.
 
 # Naming convention:
 

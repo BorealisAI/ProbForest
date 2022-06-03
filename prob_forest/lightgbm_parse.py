@@ -4,11 +4,11 @@
 #
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
-#####################################################################################
+##############################################################################
 # Code is based on SHAP
 # from https://github.com/slundberg/shap/blob/master/shap/explainers/_tree.py
 # by Scott Lundberg
-#################################################################################### 
+##############################################################################
 
 import logging
 from typing import Any, Dict, List, Tuple, Union

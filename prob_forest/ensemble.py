@@ -498,7 +498,6 @@ class SampledPathEnsemble(TreeEnsemble):
             if not leaf_mask.any():
                 break
 
-
         val = self._gather_value(node)  # type: ignore
 
         if return_trace:

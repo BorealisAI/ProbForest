@@ -7,7 +7,6 @@
 
 
 import torch
-import torch.nn as nn
 from sklearn.tree._tree import TREE_UNDEFINED
 
 
